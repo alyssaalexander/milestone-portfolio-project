@@ -1,0 +1,111 @@
+/**** BASE STYLES ****/
+body {
+  font-family: font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 800px;
+}
+
+
+/**** GRID ****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 350px;
+  float: left;
+}
+
+#about {
+  height: 800px;
+  background-color: #f3eff5;
+}
+
+#work {
+  height: 800px;
+}
+
+#contact {
+  height: 650px;
+  background-color: #f3eff5;
+}
+
+/**** HEADER ****/
+nav {
+      float: right;
+      padding: 75px 25px;
+  }
+
+nav ul li{
+      display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5e476c;
+    font-size: 18px;
+    padding-left: 35px;
+}
+
+header h1 {
+    clear: both;
+    margin-left: 20px;
+  }
+
+header h1 span {
+    font-weight: bold;
+    color: #5e476c;
+  }
+
+header h2 {
+  margin-left: 20px;
+}
+
+  /**** ABOUT ****/
+h3 {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+#about p, h4 {
+  color: black;
+  text-align: center;
+}
+
+#about li {
+    margin-left: 470px;
+}
+
+
+#about img {
+  border: 3px solid white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/**** WORK ****/
+#work p {
+  text-align: center;
+
+}
