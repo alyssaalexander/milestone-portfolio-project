@@ -7,6 +7,10 @@ header {
   height: 800px;
 }
 
+p {
+  font-size: 16px;
+}
+
 
 /**** GRID ****/
 
@@ -22,13 +26,13 @@ header {
 }
 
 .third-width {
-  width: 350px;
+  width: 400px;
   float: left;
 }
 
 #about {
   height: 800px;
-  background-color: #f3eff5;
+  background-color: #f3f0f5;
 }
 
 #work {
@@ -37,7 +41,7 @@ header {
 
 #contact {
   height: 650px;
-  background-color: #f3eff5;
+  background-color: #f3f0f5;
 }
 
 /**** HEADER ****/
@@ -75,6 +79,7 @@ header h2 {
 
   /**** ABOUT ****/
 h3 {
+  font-size: 22px;
   font-weight: bold;
   color: black;
   text-align: center;
@@ -82,13 +87,20 @@ h3 {
 
 }
 
+h4 {
+  font-size: 18px;
+}
+
 #about p, h4 {
   color: black;
   text-align: center;
+  font-size: 18px;
 }
 
 #about li {
     margin-left: 470px;
+    color: black;
+    font-size: 18px;
 }
 
 
@@ -106,6 +118,20 @@ h3 {
 
 /**** WORK ****/
 #work p {
+  font-size: 18px;
   text-align: center;
+}
 
+/**** CONTACT ****/
+#contact p {
+  text-align: center;
+}
+
+
+/**** FOOTER ****/
+footer {
+  text-align: center;
+  background-color: #f3f0f5;
+  margin: 0, auto;
+  padding: 0, 0;
 }
