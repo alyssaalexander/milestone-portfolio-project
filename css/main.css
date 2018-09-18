@@ -1,6 +1,6 @@
 /**** BASE STYLES ****/
 body {
-  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'Assistant', sans-serif;
 }
 
 header {
@@ -36,7 +36,7 @@ p {
 }
 
 #work {
-  height: 800px;
+  height: 700px;
 }
 
 #contact {
@@ -79,11 +79,12 @@ header h2 {
 
   /**** ABOUT ****/
 h3 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   color: black;
   text-align: center;
   padding-top: 100px;
+  padding-bottom: 20px;
 
 }
 
@@ -95,6 +96,7 @@ h4 {
   color: black;
   text-align: center;
   font-size: 18px;
+  padding-top: 10px;
 }
 
 #about li {
@@ -105,6 +107,7 @@ h4 {
 
 
 #about img {
+  padding: 10px;
   border: 3px solid white;
 }
 
@@ -117,21 +120,43 @@ h4 {
 }
 
 /**** WORK ****/
+
 #work p {
   font-size: 18px;
   text-align: center;
 }
 
 /**** CONTACT ****/
-#contact p {
-  text-align: center;
+
+.icons {
+  padding-left: 40px;
 }
 
+#contact h3 {
+  padding-bottom: 20px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#email {
+  padding-left: 110px;
+  font-size: 18px;
+}
+
+#git-icon {
+  margin-left: 50px;
+}
 
 /**** FOOTER ****/
 footer {
   text-align: center;
-  background-color: #f3f0f5;
-  margin: 0, auto;
-  padding: 0, 0;
 }
