@@ -1,10 +1,16 @@
 /**** BASE STYLES ****/
 body {
   font-family: 'Assistant', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  height: 800px;
+  height: 600px;
+  background-image: url("../img/concrete-wall.jpg");
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -22,6 +28,7 @@ p {
 
 .half-width {
   width: 50%;
+  margin: 0;
   float: left;
 }
 
@@ -31,16 +38,17 @@ p {
 }
 
 #about {
-  height: 800px;
+  height: 600px;
+  margin: 0;
   background-color: #f3f0f5;
 }
 
 #work {
-  height: 700px;
+  height: 600px;
 }
 
 #contact {
-  height: 650px;
+  height: 500px;
   background-color: #f3f0f5;
 }
 
@@ -83,9 +91,9 @@ h3 {
   font-weight: bold;
   color: black;
   text-align: center;
+  margin: 0;
   padding-top: 100px;
   padding-bottom: 20px;
-
 }
 
 h4 {
@@ -94,21 +102,26 @@ h4 {
 
 #about p, h4 {
   color: black;
-  text-align: center;
   font-size: 18px;
   padding-top: 10px;
 }
 
+
+
 #about li {
-    margin-left: 40%;
     color: black;
     font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 
 #about img {
   padding: 10px;
   border: 3px solid white;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
 }
 
 .center {
@@ -124,6 +137,11 @@ h4 {
 #work p {
   font-size: 18px;
   text-align: center;
+}
+
+#work p strong {
+  color: #5e476c;
+  font-size: 20px;
 }
 
 /**** CONTACT ****/
