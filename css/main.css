@@ -15,18 +15,18 @@ p {
 /**** GRID ****/
 
 .full-width {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   clear: both;
 }
 
 .half-width {
-  width: 600px;
+  width: 50%;
   float: left;
 }
 
 .third-width {
-  width: 400px;
+  width: 33%;
   float: left;
 }
 
@@ -100,7 +100,7 @@ h4 {
 }
 
 #about li {
-    margin-left: 470px;
+    margin-left: 40%;
     color: black;
     font-size: 18px;
 }
@@ -129,7 +129,7 @@ h4 {
 /**** CONTACT ****/
 
 .icons {
-  padding-left: 40px;
+  padding-left: 12%;
 }
 
 #contact h3 {
@@ -148,7 +148,7 @@ h4 {
 }
 
 #email {
-  padding-left: 110px;
+  padding-left: 28%;
   font-size: 18px;
 }
 
